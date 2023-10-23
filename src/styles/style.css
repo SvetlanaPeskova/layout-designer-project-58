@@ -67,7 +67,7 @@ header {
   display: block;
 }
 
-.header-bg-img::before {
+.bg-img::before {
     content: "";
     background-image: url("../img/background.png");
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@ header {
     right: -270px;
 }
 
-.head-text {
+.flex-text {
     display: flex;
     justify-content: space-between;
 }
@@ -216,13 +216,13 @@ header {
  
  .navigation-item {
    background-color: var(--light);
-   padding: 24px;
+   padding: 25px 24px 10px 24px;
  }
  
  .navigation-num {
    font-size: 64px;
    color: var(--main-dark);
-   margin: 0 0 40px;
+   margin: 12px 0 40px;
    font-family: Neucha, cursive;
    line-height: 1;
  }
@@ -255,3 +255,72 @@ header {
  .navigation-item:hover .orange {
    color: var(--white);
  }
+
+ #ikea-effect {
+  background-color: var(--light);
+  position: relative;
+  box-sizing: border-box;
+ }
+
+ .wrp-100 {
+  margin: 0 0 100px;
+}
+
+.pictures-column {
+  z-index: 2;
+  box-shadow: 0 16px 32px 0 #00000026;
+}
+
+ .ikea-effect-img {
+  vertical-align: middle;
+ }
+
+ .p-24px{
+  font-family: Neucha, cursive;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--translucent-dark);
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+
+ .h1-ikea-effect {
+  font-family: Neucha, cursive;
+  font-size: 60px;
+  line-height: 72px;
+  margin: 0 0 30px;
+ }
+
+ .p-34px {
+  font-family: Neucha, cursive;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 41px;
+  margin: 0;
+}
+
+.brown-bkg {
+  background: var(--brown);
+}
+
+.how-manifests {
+  box-sizing: border-box;
+  margin: 0 0 20px;
+  padding: 5px 0 5px 10px;
+}
+
+.how-manifests-h3 {
+  font-family: OpenSans, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.how-manifests-txt {
+  margin: 0;
+}
