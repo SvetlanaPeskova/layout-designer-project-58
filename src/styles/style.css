@@ -387,3 +387,9 @@ header {
 .optimization-img {
   vertical-align: middle;
 }
+
+#distortion-of-novelty {
+  background-color: var(--light);
+  position: relative;
+  box-sizing: border-box;
+}
