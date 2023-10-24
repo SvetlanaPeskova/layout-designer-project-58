@@ -393,3 +393,15 @@ header {
   position: relative;
   box-sizing: border-box;
 }
+
+#hyperbolic-depreciation {
+  background-color: var(--brown);
+  position: relative;
+  box-sizing: border-box;
+}
+
+#errors-in-planning {
+  background-color: var(--light);
+  position: relative;
+  box-sizing: border-box;
+}
