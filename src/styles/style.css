@@ -222,11 +222,12 @@ header {
  .navigation-num {
    font-size: 64px;
    color: var(--main-dark);
-   margin: 12px 0 40px;
+   margin: 0 0 40px;
    font-family: Neucha, cursive;
-   line-height: 1;
+   
  }
  
+
  .white {
    color: var(--white);
  }
@@ -236,7 +237,9 @@ header {
  }
  
  .navigation-text {
-   color: var(--dark);
+  font-family: OpenSans, sans-serif;
+  line-height: 25.6px;
+  color: var(--dark);
  }
  
  .navigation-item:hover {
@@ -323,4 +326,64 @@ header {
 
 .how-manifests-txt {
   margin: 0;
+}
+
+#premature-optimization {
+  background-color: var(--brown);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.cognitive-optimization-p {
+  font-family: Neucha, cursive;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--translucent-white);
+  line-height: 28.8px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.premature-optimization-h1 {
+  font-family: Neucha, cursive;
+  font-size: 60px;
+  font-weight: 400;
+  color: var(--white);
+  line-height: 72px;
+  margin: 0 0 30px;
+}
+
+.optimization-p {
+  font-family: Neucha, cursive;
+  font-size: 34px;
+  color: var(--white);
+  font-weight: 400;
+  line-height: 40.8px;
+  margin: 0;
+}
+
+.bg-white {
+  background-color: var(--white);
+  height: 26px;
+}
+
+.how-manifests-optim-h3 {
+  font-family: OpenSans, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--brown);
+  text-transform: uppercase;
+  ;
+}
+
+.optimization-text {
+  font-family: OpenSans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;font-family: OpenSans, sans-serif;
+  color: var(--white);
+}
+
+
+.optimization-img {
+  vertical-align: middle;
 }
