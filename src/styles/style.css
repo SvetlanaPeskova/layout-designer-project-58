@@ -405,3 +405,67 @@ header {
   position: relative;
   box-sizing: border-box;
 }
+
+footer {
+  padding: 100px 0 100px;
+}
+
+.footer-info {
+  background: var(--main-dark);
+  padding: 0 55px;
+  margin: 0 0 60;
+  box-sizing: border-box;
+  align-items: center;
+  height: 190px;
+}
+
+.footer-info-input {
+  width: 423px;
+  height: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #e3e3e3;
+}
+
+.footer-info-button {
+  height: 50px;
+  width: 70px;
+  background: var(--main);
+  border: none;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.footer-info-button::before {
+  content: "";
+  background-image: url("../img/send.svg");
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 23px;
+  top: 13px;
+}
+
+.footer-info-agreement {
+  margin: 0;
+  font-size: 12px;
+}
+
+.contact {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contact-link {
+  color: var(--blue);
+}
+
+::placeholder {
+  color: #757575;
+  font-size: 13.1px;
+}
+
+.footer-form-title {
+  font-size: 18px;
+}
